@@ -1,0 +1,96 @@
+body {
+  background-color: #9fb8f7;
+  color: #9fb8f7;
+}
+#Login{
+    margin: 0;
+    background: #bbbdc2d8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 50px;
+    border-radius: 2%;
+
+}
+.con2 {
+  height: 530px;
+  width: 530px;
+  top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  background: #747a86b6;
+  display: flex;
+
+}
+.wrapper{
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+#Login h2{
+  text-align: center;
+}
+
+#Login h1{
+    text-align: center;
+}
+#Login button{
+  background-color: #5f5f61;
+}
+#Login button:hover
+{
+    cursor: pointer;
+    background:#333335;
+    color: #fff;
+}
+#Login p{
+    text-align: center;
+}
+
+#Login span{
+    width: 300px;
+}
+
+.row{
+    flex-direction: row;
+  }
+  .col6{
+    flex-direction: column;
+    width: 50%;
+  }
+  .col12{
+    flex-direction: column;
+    width: 100%;
+  }
+  .col1{
+    flex-direction: column;
+    width: 8.333333%;
+  }
+  .col2{
+    flex-direction: column;
+    width: 16.666667%;
+  }
+  .col3{
+    flex-direction: column;
+    width: 25%;
+  }
+  .col4{
+    flex-direction: column;
+    width: 33.333333%;
+  }
+  .col10{
+    flex-direction: column;
+    width: 83.333333%;
+  }
